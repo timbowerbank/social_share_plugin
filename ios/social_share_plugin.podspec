@@ -16,10 +16,10 @@ Social Share to Facebook and Intagram Flutter plugin.
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
 
-  s.dependency 'FBSDKCoreKit', '~> 13.1.0'
-  s.dependency 'FBSDKShareKit', '~> 13.1.0'
+  s.dependency 'FBSDKCoreKit', '~> 15.1.0'
+  s.dependency 'FBSDKShareKit', '~> 15.1.0'
 
-  s.platform = :ios, '11.0'
+  s.platform = :ios, '13.0'
 
   # Flutter.framework does not contain a i386 slice.
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
