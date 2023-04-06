@@ -17,7 +17,7 @@ Social Share to Facebook and Intagram Flutter plugin.
   s.dependency 'Flutter'
 
   s.dependency 'FBSDKCoreKit', '~> 15.1.0'
-  s.dependency 'FBSDKShareKit', '~> 13.1.0'
+  s.dependency 'FBSDKShareKit', '~> 15.1.0'
 
   s.platform = :ios, '11.0'
 
